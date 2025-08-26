@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.env
+data/*.db
+.venv/__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+.DS_Store
+*.log
+.ngrok2/
+.idea/
+.vscode/
+**/.pytest_cache/
+**/.mypy_cache/

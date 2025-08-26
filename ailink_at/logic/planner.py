@@ -1,0 +1,1 @@
+# Core logic for event planning and coordination
