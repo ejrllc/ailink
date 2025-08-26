@@ -1,0 +1,11 @@
+{
+  "name": "AiLink",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "AiLink API",
+      "onAutoForward": "public"   // <— make 8000 public automatically
+    }
+  },
+  "postCreateCommand": "python -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt"
+}
